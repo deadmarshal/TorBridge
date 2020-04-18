@@ -16,6 +16,9 @@ To remove the config file run the script with -c or --clean option. (You need to
 WWW::Mechanize;
 Mojo::DOM;
 Getopt::Long;
+install dependencies with this command:
+cpanm --installdeps .
+
 feh (https://feh.finalrewind.org)
 # AUTHOR(S)
 
