@@ -4,7 +4,7 @@ TorBridge - A simple Perl script to fetch Tor proxies from https://bridges.torpr
 
 ###### Screenshot
 
-![Image of Yaktocat](https://github.com/deadmarshal/TorBridge/blob/master/Screen%20Shot%202020-04-18%20at%2011.29.52.png)
+![Image of TorBridge](https://github.com/deadmarshal/TorBridge/blob/master/Screen%20Shot%202020-04-18%20at%2011.29.52.png)
 
 ###### DESCRIPTION
 
