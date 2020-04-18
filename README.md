@@ -2,9 +2,6 @@
 
 TorBridge - A simple Perl script to fetch Tor proxies from https://bridges.torproject.org website.
 
-# VERSION
-
-version = 0.01;
 
 # DESCRIPTION
 
