@@ -1,14 +1,17 @@
-# NAME
+###### NAME
 
 TorBridge - A simple Perl script to fetch Tor proxies from https://bridges.torproject.org website.
 
+###### Screenshot
 
-# DESCRIPTION
+![Image of Yaktocat](https://github.com/deadmarshal/TorBridge/blob/master/Screen%20Shot%202020-04-18%20at%2011.29.52.png)
+
+###### DESCRIPTION
 
 To get Tor bridges and appending them to your torrc file, simply run the script with -a or --add option.
 To remove the config file run the script with -c or --clean option. (You need to do this if you want to reconfigure proxy type and torrc file path)
 
-# DEPENDENCIES
+###### DEPENDENCIES
 
 WWW::Mechanize;
 Mojo::DOM;
@@ -17,11 +20,11 @@ install dependencies with this command:
 cpanm --installdeps .
 
 feh (https://feh.finalrewind.org)
-# AUTHOR(S)
+###### AUTHOR(S)
 
 Ali Moradi (adeadmarshal@gmail.com)
 
-# COPYRIGHT AND LICENSE
+###### COPYRIGHT AND LICENSE
 
 Copyright © 2020 Ali Moradi.
 
