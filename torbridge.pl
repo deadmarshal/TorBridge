@@ -47,7 +47,7 @@ if (-e $txtfile){
 
     open $FW, '>', $txtfile, or die "Can't write file $!";
     $base_url = "https://bridges.torproject.org/bridges?transport=$proxytype$iptype";
-    print $FW "https://bridges.torproject.org/bridges?transport=$proxytype$iptype", "\n";
+    print $FW "$base_url", "\n";
     print $FW $torrcfile;
 }
 
