@@ -1,5 +1,6 @@
 ###### NAME
 
+![TorBridge Icon](https://github.com/deadmarshal/TorBridge/raw/master/icon.png)
 TorBridge - A simple Perl script to fetch Tor proxies from https://bridges.torproject.org website.
 
 ###### Screenshot
