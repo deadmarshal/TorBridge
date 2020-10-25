@@ -17,9 +17,8 @@ To remove the config file run the script with -c or --clean option. (You need to
 
 * WWW::Mechanize;
 * Mojo::DOM;
-* Getopt::Long;
 * feh (https://feh.finalrewind.org)
-* xquartz (on MacOS)(https://www.xquartz.org)
+* xquartz (on MacOS) (https://www.xquartz.org)
 
 Install dependencies with this command:
 cpanm --installdeps .
