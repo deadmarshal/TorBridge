@@ -24,12 +24,12 @@ Install dependencies with this command:
 cpanm --installdeps .
 
 ###### How to build
-
-perl Makefile.PL\
-make\
-make test\
-make install\
-
+```
+perl Makefile.PL
+make
+make test
+make install
+```
 ###### AUTHOR(S)
 
 Ali Moradi (adeadmarshal@gmail.com)
