@@ -23,6 +23,13 @@ To remove the config file run the script with -c or --clean option. (You need to
 Install dependencies with this command:
 cpanm --installdeps .
 
+###### How to build
+
+perl Makefile.PL
+make
+make test     
+make install
+
 ###### AUTHOR(S)
 
 Ali Moradi (adeadmarshal@gmail.com)
