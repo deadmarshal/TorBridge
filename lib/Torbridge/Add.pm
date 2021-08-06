@@ -47,12 +47,11 @@ sub BUILD{
 	print $TOR "Bridge $bridge", "\n";
       }
     }
-  } else {
+  } else{
     my $error = $self->{result}->at('.alert')->find('p')->map('text')->last;
     s/^\s+//, s/\s+$//, s/\n// for $error;
     print STDERR $error, "\n";
   }
-
 }
 
 __PACKAGE__->meta->make_immutable;
