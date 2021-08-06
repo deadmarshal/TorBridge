@@ -28,7 +28,7 @@ cpanm --installdeps .
 perl Makefile.PL
 make
 make test
-make install
+sudo make install
 ```
 ###### AUTHOR(S)
 
